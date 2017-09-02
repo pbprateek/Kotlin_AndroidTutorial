@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Kotlin_Android Tutorial</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ch2_1"><![CDATA[<h1>Android - Intents and Filters</h1>
+<pre class="prettyprint notranslate">Intent email = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+email.putExtra(Intent.EXTRA_EMAIL, recipients);
+email.putExtra(Intent.EXTRA_SUBJECT, subject.getText().toString());
+email.putExtra(Intent.EXTRA_TEXT, body.getText().toString());
+startActivity(Intent.createChooser(email, "Choose an email client from..."));</pre>]]></string>
+    <string name="ch2_2"><![CDATA[<h1>Android - UI Controls</h1>
+<p>As explained in previous chapter, a view object may have a unique ID assigned to it which will identify the View uniquely within the tree. The syntax for an ID, inside an XML tag is &minus;</p>
+<pre class="prettyprint notranslate prettyprinted"><span class="pln">android</span><span class="pun">:</span><span class="pln">id</span><span class="pun">=</span><span class="str">"@+id/text_id"</span></pre>
+<p>Then finally create an instance of the Control object and capture it from the layout, use the following &minus;</p>
+<pre class="prettyprint notranslate prettyprinted"><span class="typ">TextView</span><span class="pln"> myText </span><span class="pun">=</span> <span class="pun">(</span><span class="typ">TextView</span><span class="pun">)</span><span class="pln"> findViewById</span><span class="pun">(</span><span class="pln">R</span><span class="pun">.</span><span class="pln">id</span><span class="pun">.</span><span class="pln">text_id</span><span class="pun">);</span></pre>]]></string>
+    <string name="ch2_3"><![CDATA[<h1>Android - SDK Manager</h1>
+<h3>Running Android SDK Manager</h3>
+<p>Once downloaded, you can launch Android SDK Manager in one of the following ways &minus;</p>
+<ul class="list">
+<li>
+<p>Click&nbsp;<strong>tools-&gt;Android-&gt; SDK Manager</strong>&nbsp;option in Eclipse.</p>
+</li>
+<li>
+<p>Double Click on the&nbsp;<strong>SDK Manager.exe</strong>&nbsp;file in the Android SDK folder.</p>
+</li>
+</ul>
+<p>When it runs you will see the following screen &minus;</p>]]></string>
+    <string name="ch2_4"><![CDATA[<h1>Android - Intents and Filters</h1>
+<pre class="prettyprint notranslate">Intent email = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+email.putExtra(Intent.EXTRA_EMAIL, recipients);
+email.putExtra(Intent.EXTRA_SUBJECT, subject.getText().toString());
+email.putExtra(Intent.EXTRA_TEXT, body.getText().toString());
+startActivity(Intent.createChooser(email, "Choose an email client from..."));</pre>]]></string>
+    <string name="ch2_5"><![CDATA[<h1>Android - SDK Manager</h1>
+<h3>Running Android SDK Manager</h3>
+<p>Once downloaded, you can launch Android SDK Manager in one of the following ways &minus;</p>
+<ul class="list">
+<li>
+<p>Click&nbsp;<strong>tools-&gt;Android-&gt; SDK Manager</strong>&nbsp;option in Eclipse.</p>
+</li>
+<li>
+<p>Double Click on the&nbsp;<strong>SDK Manager.exe</strong>&nbsp;file in the Android SDK folder.</p>
+</li>
+</ul>
+<p>When it runs you will see the following screen &minus;</p>]]></string>
+    <string name="ch2_6"><![CDATA[<h1>Android - UI Controls</h1>
+<p>As explained in previous chapter, a view object may have a unique ID assigned to it which will identify the View uniquely within the tree. The syntax for an ID, inside an XML tag is &minus;</p>
+<pre class="prettyprint notranslate prettyprinted"><span class="pln">android</span><span class="pun">:</span><span class="pln">id</span><span class="pun">=</span><span class="str">"@+id/text_id"</span></pre>
+<p>Then finally create an instance of the Control object and capture it from the layout, use the following &minus;</p>
+<pre class="prettyprint notranslate prettyprinted"><span class="typ">TextView</span><span class="pln"> myText </span><span class="pun">=</span> <span class="pun">(</span><span class="typ">TextView</span><span class="pun">)</span><span class="pln"> findViewById</span><span class="pun">(</span><span class="pln">R</span><span class="pun">.</span><span class="pln">id</span><span class="pun">.</span><span class="pln">text_id</span><span class="pun">);</span></pre>]]></string>
+
+
+    <string name="ch1_10"><![CDATA[<h1>Android - Services</h1>
+<p><span style="color: #00ff00;"><em>A&nbsp;<strong>service</strong>&nbsp;is a component that runs in the background to perform long-running operations without needing to interact with the user and it works even if application is destroyed.</em></span></p>]]></string>
+    <string name="ch1_9"><![CDATA[<h1><em><span style="text-decoration: underline; color: #ff0000;">Android - Fragments</span></em></h1>
+<p>Following are important points about fragment &minus;</p>
+<ul class="list">
+<li>
+<p>A fragment has its own layout and its own behaviour with its own life cycle callbacks.</p>
+</li>
+<li>
+<p>You can add or remove fragments in an activity while the activity is running.</p>
+</li>
+<li>
+<p>You can combine multiple fragments in a single activity to build a multi-pane UI.</p>
+</li>
+<li>
+<p>A fragment can be used in multiple activities.</p>
+</li>
+</ul>]]></string>
+
+    <string name="ch1_8"><![CDATA[<h1>Android - Intents and Filters</h1>
+<pre class="prettyprint notranslate">Intent email = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+email.putExtra(Intent.EXTRA_EMAIL, recipients);
+email.putExtra(Intent.EXTRA_SUBJECT, subject.getText().toString());
+email.putExtra(Intent.EXTRA_TEXT, body.getText().toString());
+startActivity(Intent.createChooser(email, "Choose an email client from..."));</pre>]]></string>
+
+    <string name="ch1_7"><![CDATA[<h1>Android - Services</h1>
+<p><span style="color: #00ff00;"><em>A&nbsp;<strong>service</strong>&nbsp;is a component that runs in the background to perform long-running operations without needing to interact with the user and it works even if application is destroyed.</em></span></p>]]></string>
+    <string name="ch1_6"><![CDATA[<h1><em><span style="text-decoration: underline; color: #ff0000;">Android - Fragments</span></em></h1>
+<p>Following are important points about fragment &minus;</p>
+<ul class="list">
+<li>
+<p>A fragment has its own layout and its own behaviour with its own life cycle callbacks.</p>
+</li>
+<li>
+<p>You can add or remove fragments in an activity while the activity is running.</p>
+</li>
+<li>
+<p>You can combine multiple fragments in a single activity to build a multi-pane UI.</p>
+</li>
+<li>
+<p>A fragment can be used in multiple activities.</p>
+</li>
+</ul>]]></string>
+
+    <string name="ch1_5"><![CDATA[<h1>Android - Services</h1>
+<p><span style="color: #00ff00;"><em>A&nbsp;<strong>service</strong>&nbsp;is a component that runs in the background to perform long-running operations without needing to interact with the user and it works even if application is destroyed.</em></span></p>]]></string>
+
+    <string name="ch1_4"><![CDATA[<h1>Android - Activities</h1>
+<p>&nbsp;</p>
+<pre class="prettyprint notranslate prettyprinted"><span class="kwd">package</span><span class="pln"> com</span><span class="pun">.</span><span class="pln">example</span><span class="pun">.</span><span class="pln">helloworld</span><span class="pun">;</span>
+
+<span class="kwd">import</span><span class="pln"> android</span><span class="pun">.</span><span class="pln">os</span><span class="pun">.</span><span class="typ">Bundle</span><span class="pun">;</span>
+<span class="kwd">import</span><span class="pln"> android</span><span class="pun">.</span><span class="pln">app</span><span class="pun">.</span><span class="typ">Activity</span><span class="pun">;</span>
+<span class="kwd">import</span><span class="pln"> android</span><span class="pun">.</span><span class="pln">util</span><span class="pun">.</span><span class="typ">Log</span><span class="pun">;</span>
+
+<span class="kwd">public</span> <span class="kwd">class</span> <span class="typ">MainActivity</span> <span class="kwd">extends</span> <span class="typ">Activity</span> <span class="pun">{</span>
+   <span class="typ">String</span><span class="pln"> msg </span><span class="pun">=</span> <span class="str">"Android : "</span><span class="pun">;</span>
+
+   <span class="com">/** Called when the activity is first created. */</span>
+   <span class="lit">@Override</span>
+   <span class="kwd">public</span> <span class="kwd">void</span> <strong><span class="pln">onCreate</span></strong><span class="pun">(</span><span class="typ">Bundle</span><span class="pln"> savedInstanceState</span><span class="pun">)</span> <span class="pun">{</span>
+      <span class="kwd">super</span><span class="pun">.</span><span class="pln">onCreate</span><span class="pun">(</span><span class="pln">savedInstanceState</span><span class="pun">);</span><span class="pln">
+      setContentView</span><span class="pun">(</span><span class="pln">R</span><span class="pun">.</span><span class="pln">layout</span><span class="pun">.</span><span class="pln">activity_main</span><span class="pun">);</span>
+      <span class="typ">Log</span><span class="pun">.</span><span class="pln">d</span><span class="pun">(</span><span class="pln">msg</span><span class="pun">,</span> <span class="str">"The onCreate() event"</span><span class="pun">);</span>
+   <span class="pun">}<br /></span>}</pre>]]></string>
+
+    <string name="ch1_3"><![CDATA[<h1>Android - Hello World Example</h1>
+<pre class="prettyprint notranslate prettyprinted"><span class="tag">&lt;RelativeLayout</span> <span class="atn">xmlns:android</span><span class="pun">=</span><span class="atv">"http://schemas.android.com/apk/res/android"</span>
+   <span class="atn">xmlns:tools</span><span class="pun">=</span><span class="atv">"http://schemas.android.com/tools"</span>
+   <span class="atn">android:layout_width</span><span class="pun">=</span><span class="atv">"match_parent"</span>
+   <span class="atn">android:layout_height</span><span class="pun">=</span><span class="atv">"match_parent"</span> <span class="tag">&gt;</span>
+
+   <span class="tag">&lt;TextView</span>
+      <span class="atn">android:layout_width</span><span class="pun">=</span><span class="atv">"wrap_content"</span>
+      <span class="atn">android:layout_height</span><span class="pun">=</span><span class="atv">"wrap_content"</span>
+      <span class="atn">android:layout_centerHorizontal</span><span class="pun">=</span><span class="atv">"true"</span>
+      <span class="atn">android:layout_centerVertical</span><span class="pun">=</span><span class="atv">"true"</span>
+      <span class="atn">android:padding</span><span class="pun">=</span><span class="atv">"@dimen/padding_medium"</span>
+      <span class="atn">android:text</span><span class="pun">=</span><span class="atv">"@string/hello_world"</span>
+      <span class="atn">tools:context</span><span class="pun">=</span><span class="atv">".MainActivity"</span> <span class="tag">/&gt;</span>
+
+<span class="tag">&lt;/RelativeLayout&gt;</span></pre>]]></string>
+    <string name="ch1_2"><![CDATA[<h1>Android - Intents and Filters</h1>
+<pre class="prettyprint notranslate">Intent email = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+email.putExtra(Intent.EXTRA_EMAIL, recipients);
+email.putExtra(Intent.EXTRA_SUBJECT, subject.getText().toString());
+email.putExtra(Intent.EXTRA_TEXT, body.getText().toString());
+startActivity(Intent.createChooser(email, "Choose an email client from..."));</pre>]]></string>
+
+    <string name="ch1_1"><![CDATA[<h2>What is Android?</h2>
+<p><em>Android is an open source and Linux-based&nbsp;<strong>Operating System</strong>&nbsp;for mobile devices such as smartphones and tablet computers. Android was developed by the&nbsp;Open Handset Alliance, led by Google, and other companies.</em></p>
+<h2>Android Applications</h2>
+<p>Android applications are usually developed in the Java language using the Android Software Development Kit.</p>
+<p>Once developed, Android applications can be packaged easily and sold out either through a store such as&nbsp;<strong>Google Play</strong>,&nbsp;<strong>SlideME</strong>,&nbsp;<strong>Opera Mobile Store</strong>,&nbsp;<strong>Mobango</strong>,&nbsp;<strong>F-droid</strong>&nbsp;and the&nbsp;<strong>Amazon Appstore</strong>.</p>]]></string>
+
+</resources>

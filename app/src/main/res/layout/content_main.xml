@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.prate.kotlin_androidtutorial.MainActivity"
+        tools:showIn="@layout/app_bar_main"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:paddingTop="62dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
